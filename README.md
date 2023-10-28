@@ -25,4 +25,10 @@ Tindak Lanjut : Untuk mendapatkan perhitungan yang sesuai diperlukan data prepro
 3. Pada Feature Encoding kita menggunakan onehost, karena menghindari bias pada data.
 4. Outlier yang kita hapus dari jumlah data yang ada sekitar 4.21 %. Alasan kita mengharapkan outlier yang ada karena outlier mempengaruhi proses untuk proses pemodelan.
 5. Untuk feature transformation yang kita lakukan adalah mengecek distribusi setiap data.
-6. 
+6. Pada class imbalance kita melakukan klasifikasi pada pemodelan yang dilakukan dengan menggunakan kolom churn.
+7. Pada feature selection kita menggunakan Selectkbest untuk melihat 6 feature terbaiknya
+8. Pada feature extraction kita menambahkan kolom TotalSpanding, CustomerCatagory, MeanOrderAmountHikeFromlastYear, dan juga OrderAmountHike_Coupon_Interact.
+
+Tindak Lanjut : Untuk Melakukan eksperimen feature yang nantinya akan dihapus atau tidak, mencari penyebab churn selain yang sudah didapatkan, mempertimbangkan feature lainnya, seperti daysincelastorder dan CashbackAmount, melakukan EDA dan membuat pre prosesing untuk feature yang baru ditambahkan. 
+
+Hal-hal tersebut akan dilakukan untuk menunjang proses pada stage selanjutnya yaitu pemodelan.
