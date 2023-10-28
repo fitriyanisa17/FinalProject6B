@@ -17,3 +17,12 @@ Final Project Rakamin Data Science Batch 05 kelompok 6b
 13. Pelanggan yang menerima tingkat cashback yang tinggi cenderung lebih setia, sedangkan pelanggan dengan tingkat cashback yang rendah atau sedang mungkin lebih cenderung melakukan churn.
 
 Tindak Lanjut : Untuk mendapatkan perhitungan yang sesuai diperlukan data preprocessing dengan menghilangkan outlier, menentukan fitur yang sesuai dan metode correlation yang sesuai, menormalisasi fitur yang memiliki skew
+
+
+# Summary dan insight Data Pre-prosesing
+1. Pada handling data missing values kita menggunakan dropna karena dataset yang ada memiliki banyak data.
+2. Pada saat mengecek duplikat data hasilnya adalah 0
+3. Pada Feature Encoding kita menggunakan onehost, karena menghindari bias pada data.
+4. Outlier yang kita hapus dari jumlah data yang ada sekitar 4.21 %. Alasan kita mengharapkan outlier yang ada karena outlier mempengaruhi proses untuk proses pemodelan.
+5. Untuk feature transformation yang kita lakukan adalah mengecek distribusi setiap data.
+6. 
